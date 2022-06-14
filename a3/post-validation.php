@@ -4,6 +4,7 @@
    $fieldErrors = validateBooking();
    If the array is empty, then no errors were generated
 */
+/* Final a1 version. */
 function validateBooking() {
   $errors = []; // new empty array to return error messages
   if ($_POST['user']['name'] == '') {
