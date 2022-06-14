@@ -1,5 +1,5 @@
 function toggleWireframe() {
-  
+  // Final a1 version.
   // get references to styleshets with preset id attributes
   let wfs = document.getElementById("wireframecss");
   let sts = document.getElementById("stylecss");
