@@ -1,1 +1,41 @@
-/* Insert your styles here */
+h1, h2, h3 {
+   font-family: Broadway;
+   src: url("C:/Windows/Fonts/Broadway.ttf");
+}
+
+h1 {
+   color: white;
+}
+
+nav, p, table {
+   font-family: "Verdana";
+}
+
+.navigation {
+   background-color: yellow;
+   height: 50px;
+   position: sticky;
+   top: 0px;
+}
+
+#now-showing {
+   display: flex;
+   
+}
+
+header {
+   background-color: black;
+   display: flex;
+}
+
+nav a {
+   margin-left: 20px;
+   margin-right: 200px;
+   line-height: 3;
+}
+.main-class{
+   text-align: center;
+}
+.seat-div{
+   display: flex;
+}
