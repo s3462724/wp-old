@@ -2,7 +2,7 @@
 <head>
 <link rel='stylesheet' href='style.css' type='text/css' />
 <link rel='stylesheet' href='flip.css' type='text/css' />
-<link rel='stylesheet' href='responsive.css' type='text/css' />
+<link rel='stylesheet' href='responsive.css' type='text/css' /> 
 <script>
 
 </script>
