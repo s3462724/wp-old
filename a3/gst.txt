@@ -1,0 +1,3 @@
+priceExcludedGST = priceWithGST / 1.1;
+
+GST = priceWithGST - priceExcludedGST;

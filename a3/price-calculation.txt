@@ -1,0 +1,63 @@
+var totalPrice = 0.00;
+var summary = " ";
+var finalSummary = " ";
+if(isDiscounted == true) 
+{
+  if(seat == STA) {
+     var price = 15.00;
+     var description = "Standard Adult (Discounted)";
+  }
+  else if(seat == STP) {
+     var price = 13.50;
+var description = "Standard Concession (Discounted)";
+  }
+  else if(seat == STC) {
+     var price = 12.00;
+var description = "Standard Child (Discounted)";
+  }
+  else if(seat == FCA) {
+     var price = 24.00;
+var description = "First Class Adult (Discounted)";
+  }
+  else if(seat == FCP) {
+     var price = 22.50;
+var description = "First Class Concession (Discounted)";
+  }
+  else if(seat == FCC) {
+     var price = 21.00;
+var description = "First Class Child (Discounted)";
+  }
+}
+
+else
+{
+  if(seat == STA) {
+     var price = 20.50;
+var description = "Standard Adult";
+  }
+  else if(seat == STP) {
+     var price = 18.00;
+var description = "Standard Concession";
+  }
+  else if(seat == STC) {
+     var price = 16.50;
+var description = "Standard Child";
+  }
+  else if(seat == FCA) {
+     var price = 30.00;
+var description = "First Class Adult";
+  }
+  else if(seat == FCP) {
+     var price = 27.00;
+var description = "First Class Concession";
+  }
+  else if(seat == FCC) {
+     var price = 24.00;
+var description = "First Class Child";
+  }
+}
+
+totalPrice = price + totalPrice;
+summary = description + ":	" + price + "\n";
+
+finalSummary = summary + "\n" + "Total:		" + totalPrice;
