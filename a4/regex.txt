@@ -1,0 +1,3 @@
+var namePatt = /^[a-zA-Z]$/;
+var emailPatt = /^[0-9a-z]@[0-9a-z].[a-z]$/;
+var mobilePatt = /^[0-9]{10}$/;

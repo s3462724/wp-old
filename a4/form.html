@@ -1,0 +1,349 @@
+<html>
+  <head>
+    <script type="text/javascript" src="tools.js"></script>
+    <script type="text/javascript">
+     function displayDate() {
+       document.getElementById("date").value=Date();
+     }
+   </script>
+ </head>
+<body>
+<script>
+var movieType = movie;
+var timeSlotA = "";
+var timeSlotB = "";
+var timeSlotC = "";
+if var movieType == "ACT" {
+var image = "top-gun-maverick-poster.jpg";
+var title = "Top Gun: Maverick - M";
+var synopsis = "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.";
+var director = "Joseph Kosinski";
+var starA = "Tom Cruise";
+var starB = "Jennifer Connolly";
+var starC = "Miles Teller";
+var timeSlotA = "Mon-Tue: 9pm";
+var timeSlotB = "Wed-Fri: 9pm";
+var timeSlotC = "Sat-Sun: 6pm";SWISS MILITARY
+};
+
+if movie == "RMC" {
+
+var image = "mrs-harris-goes-to-paris-poster.jpg"
+var title = "Mrs. Harris Goes to Paris - PG"
+var synopsis = "A widowed cleaning lady in 1950s London falls madly in love with a couture Dior dress, and decides that she must have one of her own."
+var director = "Anthony Fabian"
+var starA = "Jason Isaacs"
+var starB = "Lesley Manville"
+var starC = "Rose Williams"
+var timeSlotA = "Wed-Fri: 12pm"
+var timeSlotB = "Sat-Sun: 3pm"
+}
+
+<img src=mrs-harris-goes-to-paris.jpg>
+<h2>Mrs. Harris Goes to Paris - PG</h2>
+<p>A widowed cleaning lady in 1950s London falls madly in love with a couture Dior dress, and decides that she must have one of her own.</p>
+
+<p>Director:</p>
+<p>Anthony Fabian</p>
+
+<p>Starring:</p>
+<p>Jason Isaacs</p>
+<p>Lesley Manville</p>
+<p>Rose Williams</p>
+
+<p>Wed-Fri: 12pm</p>
+<p>Sat-Sun: 3pm</p>
+
+}
+
+if( movie == "FAM") {
+
+var image = "lightyear-poster.jpg"
+var title = "Lightyear - PG"
+var synopsis = "While spending years attempting to return home, marooned Space Ranger Buzz Lightyear encounters an army of ruthless robots commanded by Zurg who are attempting to steal his fuel source."
+var director = "Angus MacLane" Campaillette? c'est plus  c'est moins
+var starA = "Chris Evans"
+var starB = "Keke Palmer"
+var starC = "Peter Sohn"
+var timeSlotA = "Mon-Tue: 12pm"
+var timeSlotB = "Wed-Fri: 6pm"
+var timeSlotC = "Sat-Sun: 12pm"
+Sat-Sun: 3pm
+}
+
+<img src=media/lightyear-poster.jpg>
+<h2>Lightyear - PG</h2>
+<p>While spending years attempting to return home, marooned Space Ranger Buzz Lightyear encounters an army of ruthless robots commanded by Zurg who are attempting to steal his fuel source.</p>
+
+<p>Director:</p>
+<p>Angus MacLane</p>
+
+<p>Starring:</p>
+<p>Chris Evans</p>
+<p>Keke Palmer</p>
+<p>Peter Sohn</p>
+
+<p>Mon-Tue: 12pm</p>
+<p>Wed-Fri: 6pm</p>
+<p>Sat-Sun: 12pm</p>
+
+}
+
+if movie == "AHF" {
+
+var image = "prithviraj-poster.jpg"
+var title = "Prithviraj - M" Sylvester Stallone
+var synopsis = "A fearless warrior. An epic love story. Witness the grand saga of Samrat Prithviraj Chauhan."
+var director = "Chandra Prakash Dwivedi"
+var starA = "Akshay Kumar"
+var starB = "Manushi Chhillar"
+var starC = "Sanjay Dutt"
+var timeSlotA = "Mon-Tue: 6pm"
+var timeSlotB = "Sat-Sun: 9pm"
+Sat-Sun: 3pm
+
+<img src=prithviraj-poster.jpg>
+<h2>Prithviraj - M</h2>
+<p>A fearless warrior. An epic love story. Witness the grand saga of Samrat Prithviraj Chauhan.</p>
+
+<p>Director:</p>
+<p>Chandra Prakash Dwivedi</p>
+
+<p>Starring:</p>
+<p>Akshay Kumar</p>
+<p>Manushi Chhillar</p>
+<p>Sanjay Dutt</p>
+
+<p>Mon-Tue: 6pm</p>
+<p>Sat-Sun: 9pm</p>
+
+}
+
+document.write('<img src=image>')
+document.write('<h2>' + title + '</h2>');
+<p>document.write('<p>'synopsis</p>)</p>
+
+<p>Director:</p>
+<p>document.write(<p>director</p>)</p>
+
+<p>Starring:</p>
+<p>document.write(<p>starA</p>)</p>
+<p>document.write(<p>starB</p>)</p>
+<p>document.write(<p>starC</p>)</p>
+
+<p>document.write(<p>timeSlotA</p>)</p>
+<p>document.write(<p>timeSlotB</p>)</p>
+<p>document.write(<p>timeSlotC</p>)</p>
+
+}
+
+
+
+</body>
+<form method='post' action="form.html" onsubmit="return formValidate();">
+  <label for="name">Name:</label>
+  <input type="hidden" id="name" name="name"><br><br>
+  <label for="code">Code:</label>
+  <input type="hidden" id="movie" name="movie" value="movie"><br><br>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="code">Code:</label>
+  <input type="text" id="code" name="code"><br><br>
+  <label for="STA">Standard Adult Seats:</label>
+  <select id="STA" name="seats[STA]" size=10 multiple>
+     <option value="" selected>Please select</option>
+     <option value="1" selected>1</option>
+<option value="2" selected>2</option>
+<option value="3" selected>3</option>
+<option value="4" selected>4</option>
+<option value="5" selected>5</option>
+<option value="6" selected>6</option>
+<option value="7" selected>7</option>
+<option value="8" selected>8</option>
+<option value="9" selected>9</option>
+<option value="10" selected>10</option>
+<label for="STP">Standard Concession Seats:</label>
+<select id="STP" name="seats[STP]" size=10 multiple>
+     <option value="" selected>Please select</option>
+     <option value="1" selected>1</option>
+<option value="2" selected>2</option>
+<option value="3" selected>3</option>
+<option value="4" selected>4</option>
+<option value="5" selected>5</option>
+<option value="6" selected>6</option>
+<option value="7" selected>7</option>
+<option value="8" selected>8</option>
+<option value="9" selected>9</option>
+<option value="10" selected>10</option>
+<label for="STC">Standard Child Seats:</label>
+select id="STC" name="seats[STC]" size=10 multiple>
+     <option value="" selected>Please select</option>
+     <option value="1" selected>1</option>
+<option value="2" selected>2</option>
+<option value="3" selected>3</option>
+<option value="4" selected>4</option>
+<option value="5" selected>5</option>
+<option value="6" selected>6</option>
+<option value="7" selected>7</option>
+<option value="8" selected>8</option>
+<option value="9" selected>9</option>
+<option value="10" selected>10</option>
+<label for="FCA">First Class Adult Seats:</label>
+<select id="FCA" name="seats[FCA]" size=10 multiple>
+     <option value="" selected>Please select</option>
+     <option value="1" selected>1</option>
+<option value="2" selected>2</option>
+<option value="3" selected>3</option>
+<option value="4" selected>4</option>
+<option value="5" selected>5</option>
+<option value="6" selected>6</option>
+<option value="7" selected>7</option>
+<option value="8" selected>8</option>
+<option value="9" selected>9</option>
+<option value="10" selected>10</option>
+<label for="FCP">First Class Concession Seats:</label>
+select id="FCP" name="seats[FCP]" size=10 multiple>
+     <option value="" selected>Please select</option>
+     <option value="1" selected>1</option>
+<option value="2" selected>2</option>
+<option value="3" selected>3</option>
+<option value="4" selected>4</option>
+<option value="5" selected>5</option>
+<option value="6" selected>6</option>
+<option value="7" selected>7</option>
+<option value="8" selected>8</option>
+<option value="9" selected>9</option>
+<option value="10" selected>10</option>
+<label for="FCC">First Class Child Seats:</label>
+select id="FCC" name="seats[FCC]" size=10 multiple>
+     <option value="" selected>Please select</option>
+     <option value="1" selected>1</option>
+<option value="2" selected>2</option>
+<option value="3" selected>3</option>
+<option value="4" selected>4</option>
+<option value="5" selected>5</option>
+<option value="6" selected>6</option>
+<option value="7" selected>7</option>
+<option value="8" selected>8</option>
+<option value="9" selected>9</option>
+<option value="10" selected>10</option>
+<select name="seats[STA]" data-fullprice="20.5" data-discprice="15"> ... </select>
+<select name="seats[STA]" data-fullprice="18" data-discprice="13.5"> ... </select>
+<select name="seats[STA]" data-fullprice="16.5" data-discprice="12"> ... </select>
+<select name="seats[STA]" data-fullprice="30" data-discprice="24"> ... </select>
+<select name="seats[STA]" data-fullprice="27" data-discprice="22.5"> ... </select>
+<select name="seats[STA]" data-fullprice="24" data-discprice="21"> ... </select>
+
+<input type="radio" id="monday" name="day" value="monday">
+  <label for="monday">Monday</label><br>
+  <input type="radio" id="tuesday" name="day" value="tuesday">
+  <label for="tuesday">Tuesday</label><br>
+  <input type="radio" id="wednesday" name="day" value="wednesday">
+  <label for="wednesday">Wednesday</label>
+<input type="radio" id="thursday" name="day" value="thursday">
+  <label for="thursday">Thursday</label><br>
+  <input type="radio" id="friday" name="day" value="friday">
+  <label for="friday">Friday</label><br>
+  <input type="radio" id="saturday" name="day" value="saturday">
+  <label for="saturday">Saturday</label>
+<input type="radio" id="sunday" name="day" value="sunday">
+  <label for="sunday">Sunday</label><br>
+
+
+  // This is where it all happens!
+    function formValidate() {
+    // clear all errors, even if it's the first run
+      clearErrors();
+      var countErrors=0;
+    // Is the name not blank?
+      if (!nameCheck()) countErrors++;
+    // Is the email not blank?
+      if (!emailCheck()) countErrors++;
+    // Is the mobile number not blank?
+      if (!mobileCheck()) countErrors++;
+    // Block or allow submission depending on number of errors
+      console.log(countErrors);
+      return (countErrors==0);
+    }
+
+
+function nameCheck()
+    {
+      var name=getid('name').value;
+      var names=name.split(" ");
+      if (names[0]==null)
+      {
+        getid('nameError').innerHTML="<br>Sorry, name field must not be left blank!";
+        getid('name').style.backgroundColor='#fee';
+        return false;
+      }
+      else
+      {
+        return true;
+      }
+    }
+
+function emailCheck()
+    {
+      var email=getid('email').value;
+      var emails=email.split(" ");
+      if (emails[0]==null)
+      {
+        getid('emailError').innerHTML="<br>Sorry, email field must not be left blank!";
+        getid('email').style.backgroundColor='#fee';
+        return false;
+      }
+      else
+      {
+        return true;
+      }
+    }
+function mobileCheck()
+    {
+      var mobile=getid('mobile').value;
+      var mobiles=mobile.split(" ");
+      if (mobiles[0]==null)
+      {
+        getid('mobileError').innerHTML="<br>Sorry, mobile number field must not be left blank!";
+        getid('mobile').style.backgroundColor='#fee';
+        return false;
+      }
+      else
+      {
+        return true;
+      }
+    }
+
+function calculatePrice()
+{
+  let seat = document.getElementById('seat');
+  let seatQty = parseInt(seat.value);
+  let seatPrice = parseFloat(seat.dataset.seatprice);
+  if (isNaN(numSeats))
+  {
+    alert('You are a bad customer! Type numbers next time.');
+    document.getElementById('seats').focus();
+    document.getElementById('seats').select();
+    return false;
+  }
+  if (isNaN(seatPrice)) {
+    alert('You are a bad coder! Fix the seat price data attribute in the seat field.');
+    return false;
+  }
+  var salePrice = seatPrice * seatQty;
+  document.getElementById('price').innerHTML = salePrice.toFixed(2);
+  return true;
+}
+
+<label for="name">Name:</label>
+  <input type="text" id="name" name="user[name]"><br><br>
+  <label for="name">Full name:</label>
+  <span class='error' id='nameError'></span>
+  <input type="text" id="email" name="user[email]"><br><br>
+  <label for="email">Email:</label>
+  <span class='error' id='emailError'></span>
+  <input type="text" id="mobile" name="user[mobile]"><br><br>
+  <label for="mobile">Mobile number:</label>
+  <span class='error' id='mobileError'></span>
+  <input type="submit" value="Submit">
+</form>

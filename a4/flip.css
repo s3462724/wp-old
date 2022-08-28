@@ -1,0 +1,53 @@
+div.card3D {
+  border: dotted black thin;
+  background-color: #ddd;
+  box-sizing: border-box;
+  margin-right: 100px;
+}
+div.card3D > div:nth-child(1) {
+  border: 4px red groove;
+}
+div.card3D > div:nth-child(2) {
+  border: 4px blue groove;
+}
+
+div.card3D {
+  height: 500px;
+  width: 200px;
+  padding: 5px;
+  overflow: auto;
+}
+div.card3D > div {
+  height: calc(100% - 10px);
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+
+div.card3D {
+  position: relative;
+}
+div.card3D > div {
+  position: absolute;
+}
+
+div.card3D > div:nth-child(1){
+  transform: rotateY(0deg);
+}
+div.card3D > div:nth-child(2){
+  transform: rotateY(180deg);
+  overflow: auto;
+}
+
+div.card3D > div {
+  transition: 1s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+}
+div.card3D:hover > div:nth-child(1) {
+  transform: rotateY(180deg);
+}
+div.card3D:hover > div:nth-child(2) {
+  transform: rotateY(360deg);
+}

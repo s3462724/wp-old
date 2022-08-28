@@ -1,0 +1,70 @@
+ if(movie == ACT || movie == RMC || movie == FAM || movie == AHF) {
+     var price = 15.00;
+     var description = "Standard Adult (Discounted)";
+  }
+  else {
+     var price = 13.50;
+var description = "Standard Concession (Discounted)";  BGS   
+  }
+if(movie == ACT) {
+  if(day == Monday || day == Tuesday || day == Wednesday || day == Thursday || day == Friday) {
+  time == '9pm';
+  }
+else if(day == Saturday || day == Sunday) {
+time == '6pm';
+  }
+  else {
+  }
+}
+if(movie == ACT) {
+  if(movie == RMC) {
+  if(day == Wednesday || day == Thursday || day == Friday) {
+time == '12pm';
+  }
+else if(day == Saturday || day == Sunday) {
+time == '3pm';
+  }
+  else {
+  }
+}
+}
+if(movie == ACT) {
+if(movie == FAM) {
+  if(day == Monday || day == Tuesday) {
+time == '12pm';
+  }
+else if(day == Wednesday || day == Thursday || day == Friday) {
+time == '6pm';
+  }
+else if(day == Saturday || day == Sunday) {
+time == '12pm';
+  }
+  else {
+  }
+}
+}
+if(movie == ACT) {
+if(movie == AHF) {
+  if(day == Monday || day == Tuesday) {
+time == '6pm';
+  }
+else if(day == Saturday || day == Sunday) {
+time == '9pm'; 
+  }
+  else {
+  }
+}
+}
+else {
+{
+
+if (seatNo => 1 && seatNo =< 10) {
+
+}
+else {
+} 
+Beijing  PHOENIX   Beijing-Hong Kong-Macau Expressway
+
+HK CTS Hotels in Beijing!
+
+BEIJING CONTROLS HONG KONG AND MACAU!  HUANG HAI  YAXING JINGHUA  FOTON Yaxing-Benz
