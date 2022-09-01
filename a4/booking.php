@@ -192,12 +192,50 @@ $movie = $movies[$_GET['movie']];
         <input type="text" id="mobile" name="user[mobile]" pattern="[0-9]{10}" placeholder="0774215263"><br><br>
         <input type="text" id="total" name="total" hidden>
         <input type="submit" value="Submit" name="submit">
+        //Remember me and forget me buttons for appending and removing remembered name, mobile and email details on localStorage array.
+        <button type"button" onclick>Remember Me</button>
+        <button type"button">Forget Me</button>
         <div id="error"></div>
     </form>
     </body>
     <script>
-
+  
+    //Initialise localStorage array.
+    remember = array("Name", "Mobile", "Email")
+    );
+  
+    //Check for name and email combination match for valid bookings in .csv file.
+    else {
+        var count = 0;
+        var found = false;
+        var file = fopen("bookings.csv", "a");
+        foreach (book as line) {
+            //fputcsv(file, fields, separator, enclosure, escape)
+            fputcsv(file, line);
+            if (name == header[count][1] && email == header[count][2]) {
+               found = true;
+            }
+            count++;
+        }
+        if (found == false) {
+           Sorry, no bookings found under your name and email combination specified.
+        }
+        
+        fclose($file);
+    }
 
     </script>
+    <footer>
+       <p>Jordan Kerever - s3462724 - Group B (Sama). My github repo: <a href="https://github.com/jordan3462724/wp">https://github.com/jordan3462724/wp</a></p>
+       //Find your bookings here by entering your name and email below:
+       <p>Find your bookings here by entering your name and email below:</p>
+       <input type="text" id="name" name="user[name]"><br><br>
+       <label for="name">Full name:</label>
+       <span class='error' id='nameError'></span>
+       <input type="text" id="email" name="user[email]"><br><br>
+       <label for="email">Email:</label>
+       <span class='error' id='emailError'></span>
+       <input type="submit" value="Submit" href="currentbookings.php">
+</footer>
 </html>
 
