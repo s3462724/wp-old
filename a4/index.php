@@ -106,8 +106,17 @@
 
     </section>
     <footer>
-        <p>Jordan Kerever - s3462724 - Group B (Sama). My github repo: <a href="https://github.com/jordan3462724/wp">https://github.com/jordan3462724/wp</a>
-        </p>
+       <p>Jordan Kerever - s3462724 - Group B (Sama). My github repo: <a href="https://github.com/jordan3462724/wp">https://github.com/jordan3462724/wp</a></p>
+       //Find your bookings here by entering your name and email below:
+       <p>Find your bookings here by entering your name and email below:</p>
+       <input type="text" id="name" name="user[name]"><br><br>
+       <label for="name">Full name:</label>
+       <span class='error' id='nameError'></span>
+       <input type="text" id="email" name="user[email]"><br><br>
+       <label for="email">Email:</label>
+       <span class='error' id='emailError'></span>
+       <input type="submit" value="Submit">
+       <input type="submit" value="Submit" href="currentbookings.php">
     </footer>
 </main>
 </body>
